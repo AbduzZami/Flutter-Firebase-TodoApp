@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.firebase_app_web">
+    package="com.azamimahi.bookvan">
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="firebase_app_web"
+        android:label="bookvan"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

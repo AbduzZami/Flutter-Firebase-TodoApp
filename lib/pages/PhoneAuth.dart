@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:firebase_app_web/Service/Auth_Service.dart';
+import 'package:bookvan/Service/Auth_Service.dart';
 import 'package:flutter/material.dart';
 import 'package:otp_text_field/otp_field.dart';
 import 'package:otp_text_field/otp_field_style.dart';
@@ -185,7 +185,7 @@ class _PhoneAuthPageState extends State<PhoneAuthPage> {
           prefixIcon: Padding(
             padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 15),
             child: Text(
-              " (+91) ",
+              " (+880) ",
               style: TextStyle(color: Colors.white, fontSize: 17),
             ),
           ),
@@ -199,7 +199,7 @@ class _PhoneAuthPageState extends State<PhoneAuthPage> {
                       buttonName = "Resend";
                     });
                     await authClass.verifyPhoneNumber(
-                        "+91 ${phoneController.text}", context, setData);
+                        "+880 ${phoneController.text}", context, setData);
                   },
             child: Padding(
               padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 15),

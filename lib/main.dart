@@ -1,6 +1,6 @@
-import 'package:firebase_app_web/Service/Auth_Service.dart';
-import 'package:firebase_app_web/pages/HomePage.dart';
-import 'package:firebase_app_web/pages/SignUpPage.dart';
+import 'package:bookvan/Service/Auth_Service.dart';
+import 'package:bookvan/pages/HomePage.dart';
+import 'package:bookvan/pages/SignUpPage.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
